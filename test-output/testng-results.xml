@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-21T12:46:50 IST" name="Suite" finished-at="2022-12-21T12:47:22 IST" duration-ms="32713">
+    <groups>
+      <group name="purchase">
+        <method signature="SubmitOrderTestNG.submitOrder(java.util.HashMap)[pri:0, instance:TestComponent.SubmitOrderTestNG@6574a52c]" name="submitOrder" class="TestComponent.SubmitOrderTestNG"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2022-12-21T12:46:50 IST" name="Test" finished-at="2022-12-21T12:46:50 IST" duration-ms="9">
+    </test> <!-- Test -->
+    <test started-at="2022-12-21T12:46:50 IST" name="SubmitOrderTest" finished-at="2022-12-21T12:47:22 IST" duration-ms="32713">
+      <class name="TestComponent.SubmitOrderTestNG">
+        <test-method is-config="true" signature="launchingApplication()[pri:0, instance:TestComponent.SubmitOrderTestNG@6574a52c]" started-at="2022-12-21T12:46:50 IST" name="launchingApplication" finished-at="2022-12-21T12:46:52 IST" duration-ms="2699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:TestComponent.SubmitOrderTestNG@6574a52c]" started-at="2022-12-21T12:46:52 IST" name="submitOrder" data-provider="getData" finished-at="2022-12-21T12:47:06 IST" duration-ms="14110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pass=Girjesh@1, email=girjesh@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestComponent.SubmitOrderTestNG@6574a52c]" started-at="2022-12-21T12:47:07 IST" name="close" finished-at="2022-12-21T12:47:07 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchingApplication()[pri:0, instance:TestComponent.SubmitOrderTestNG@6574a52c]" started-at="2022-12-21T12:47:07 IST" name="launchingApplication" finished-at="2022-12-21T12:47:08 IST" duration-ms="1498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:TestComponent.SubmitOrderTestNG@6574a52c]" started-at="2022-12-21T12:47:08 IST" name="submitOrder" data-provider="getData" finished-at="2022-12-21T12:47:22 IST" duration-ms="14159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pass=Iamking@000, email=shetty@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestComponent.SubmitOrderTestNG@6574a52c]" started-at="2022-12-21T12:47:22 IST" name="close" finished-at="2022-12-21T12:47:22 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestComponent.SubmitOrderTestNG -->
+    </test> <!-- SubmitOrderTest -->
+  </suite> <!-- Suite -->
+</testng-results>
